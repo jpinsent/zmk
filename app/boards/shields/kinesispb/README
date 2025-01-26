@@ -1,0 +1,16 @@
+ZMK
+
+BUILD
+/workspaces/zmk/app# west build -p -b pillbug -- -DSHIELD=kinesispb
+
+OUTPUT
+/workspaces/zmk/app/build/zephyr/zmk.uf2
+
+EXTRACTION
+(get container id)
+docker ps
+docker cp <containerId>:<src_path_inside_container> <target_host_path>
+
+e.g. 
+docker cp fabd192d4442:/workspaces/zmk/app/build/zephyr/zmk.uf2 C:\src\zmk\zmk.uf2
+
