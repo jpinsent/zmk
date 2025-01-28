@@ -1,7 +1,7 @@
 ZMK
 
 BUILD
-/workspaces/zmk/app# west build -p -b pillbug -- -DSHIELD=kinesispb
+/workspaces/zmk/app# west build -p -b pillbug -S studio-rpc-usb-uart -- -DSHIELD=kinesispb
 
 OUTPUT
 /workspaces/zmk/app/build/zephyr/zmk.uf2
