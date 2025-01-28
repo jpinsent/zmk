@@ -6,6 +6,9 @@ if SHIELD_KINESISPB
 config ZMK_KEYBOARD_NAME
     default "Kinesis PillBug"
 
+config SPI
+    default y
+
 config ZMK_RGB_UNDERGLOW
     select WS2812_STRIP
     select SPI
