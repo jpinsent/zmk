@@ -6,6 +6,5 @@ url: https://github.com/dcpedit/kinesismod
 requires: [pillbug]
 features:
   - keys
-  - backlight
   - underglow
-  - display
+  - studio
