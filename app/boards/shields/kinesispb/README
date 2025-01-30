@@ -14,3 +14,12 @@ docker cp <containerId>:<src_path_inside_container> <target_host_path>
 e.g. 
 docker cp fabd192d4442:/workspaces/zmk/app/build/zephyr/zmk.uf2 C:\src\zmk\zmk.uf2
 
+# REFERENCES
+- https://github.com/4pplet/zmk - Piezo buzzer support
+
+
+- https://docs.qmk.fm/platformdev_blackpill_f4x1#unusable-pins - BlackPill/Pillbug pin documentation
+
+# FUTURE REFERENCES
+- https://github.com/badjeff/zmk-output-behavior-listener - for listening to keypresses?
+- https://github.com/petejohanson/chiptuner-zmk-module - for programming chiptunes with a buzzer?
